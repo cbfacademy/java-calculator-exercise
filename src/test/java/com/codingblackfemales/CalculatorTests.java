@@ -23,4 +23,18 @@ public class CalculatorTests {
 
         assertEquals(-2, difference);
     }
+ @Test
+    @DisplayName("multiply two numbers")
+    public void testMultiply() {
+        final double multiply = Calculator.multiply(2, 4);
+
+        assertEquals(8, multiply);
+    }
+@Test
+    @DisplayName("multiply two numbers")
+    public void testDivide() {
+        final float reduce = Calculator.divide(4, 2);
+
+        assertEquals(2, reduce);
+    }
 }
